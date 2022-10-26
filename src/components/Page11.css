@@ -1,0 +1,51 @@
+.modalcheck{
+
+    top: 100px;
+
+left: 400px;
+
+width: 290px;
+
+height: 250px;
+
+/* background: #FFFFFF 0% 0% no-repeat padding-box; */
+
+border: 1px solid #707070;
+
+border-radius: 2%;
+
+opacity: 1;
+
+background-color: #FFFFFF;
+}
+.wow{
+    border-radius: 28px;
+
+    width: 180px; 
+    margin-left: 30px;
+}
+.image{
+    width: 67px;
+    height: 73px;
+    margin-left: 90px;
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:lightgray;
+    border: red;
+    /* border-color: red; */
+    
+
+
+    
+    
+    
+  
+    /* border: 1px solid #616569;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:lightgray;
+    border:none; */
+}

@@ -1,38 +1,169 @@
-.App {
+/*SideNavbar*/
+body {
+
+  margin: 0;
+
+}
+
+.side ul {
+
+  top:68px;
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  width: 175px;
+
+  background-color: #f1f1f1;
+
+  position: fixed;
+
+  height: 100%;
+
+}
+
+
+
+li a {
+
+  display: block;
+
+  color: #000;
+
+  padding: 8px 16px;
+
+  text-decoration: none;
+
+}
+
+
+
+li a.active {
+
+  background-color:blue;
+
+  color: white;
+
+}
+
+
+
+li a:hover:not(.active) {
+
+  background-color: #555;
+
+  color: white;
+
+}
+/*Navbar*/
+
+.logo{
+
+  width: 100px;
+  height:30px;
+  background-color:none;
+
+}
+
+.collapse{
+
+list-style: none;
+
+}
+
+.profile{
+
+width:40px;
+
+}
+.li{
+  list-style-type:none
+}
+.bi-clouds{
+  color: aqua;
+}
+.col-md-4{
+  display: flex-box;
+}
+.addcurreny{
+
+  color:blue;
+
+}
+
+.bi-clouds{
+
+  color: blue;
+
+}
+
+
+
+.Rates{
+
+  color: blue;
+
+}
+
+.Convert{
+
+  color:orangered
+
+}
+
+.Action{
+
+  color: orangered;
+
+}
+
+.row exchange{
+
+  color: orange;
+
+}
+
+.notification{
+
+  color:blue
+
+}
+.AddAction{
+  margin-left:15px;
+}
+.BGN{
+ border-radius: 50%;
+}
+
+.ModelCenter{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Heading{
+  text-align: center;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.align{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo1{
+  margin-left:50px
 }
-
-.App-link {
-  color: #61dafb;
+.logo2{
+  margin-left:100px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active{
+border-radius: 25px 0 0 25px;
+}
+.navbutton{
+  background-color: white;
+  border: none;
+  text-align: center;  
+  margin-left: 50px;
 }
